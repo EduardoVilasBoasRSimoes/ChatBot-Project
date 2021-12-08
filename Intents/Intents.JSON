@@ -1,18 +1,22 @@
 {"intents": [
-    {"tag": "saudações",
-      "patterns": ["Olá", "Como você está", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
-      "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
-      "context_set": ""
+	{"tag": "Saudar",
+	 "patterns": ["Olá", "Oi", "Bom dia", "Boa tarde", "Boa noite", "Eai", "Como você está", "Opa"],
+	 "reponses": ["Olá, como você vai?", "Oi, tudo bem?", "Bom dia, boa tarde, boa noite!", "Você precisa de ajuda?"]
     },
-    {"tag": "goodbye",
-      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
-      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
-      "context_set": ""
+  	{"tag": "Despedir",
+	 "patterns": ["Até mais", "Adeus", "Até logo", "Falou", "Foi bom te conhecer", "Tchau"],
+	 "reponses": ["Até mais, volte sempre!", "Ahhh, sentirei sua falta...", "Prazer em conhecê-lo!", "Tchau Tchau!", "Au revoir!"]
     },
-    {"tag": "stocks",
-      "patterns": ["what stocks do I own?", "how are my shares?", "what companies am I investing in?", "what am I doing in the markets?"],
-      "responses": ["You own the following shares: ABBV, AAPL, FB, NVDA and an ETF of the S&P 500 Index!"],
-      "context_set": ""
+	{"tag": "Nome",
+	 "patterns": ["Qual seu nome", "Como você se chama", "Quem é você"],
+	 "reponses": ["Meu nome é (NOME), qual é o seu?", "Você pode me chamar de (NOME)", "Meu nome é Uberverlandio! Brincadeira, é (NOME) kkkk."]
+    },
+	{"tag": "Idade",
+	 "patterns": ["Quantos anos você tem", "Qual sua idade", "Quando voce nasceu"],
+	 "reponses": ["Depende do referêncial... estou sendo concebido desde outubro de 2021.", "Não tenho certeza... só sei que vi a rainha Elizabeth nascer!"]
+    },
+	{"tag": "Origem",
+	 "patterns": ["De onde você veio", "Como você foi criado"],
+	 "reponses": ["Fui criado pelo grupo de Robôtica, Automação, Inteligência Artificial e Tecnologia (RAITec)!"]
     }
-  ]
-  }
+]}
