@@ -1,0 +1,11 @@
+Arquivo JSON:
+
+O arquivo JSON usado concede ao chatbot dados para que o mesmo tenha a capacidade de reconhecer uma entrada, a qual será indicada pelos padrões, levando-a até uma categoria, e retornar uma saída estática, que serão as respostas, podendo haver várias, escolhendo-se aleatóriamente qualquer uma delas.
+
+A estrutura, que será chamada de intents se comportará como uma lista de dicionários, ou seja, categorias (tags), as quais serão reconhecidas pelos padrões (patterns), levando o chatbot a respostas estáticas (responses):
+
+{"intents": [
+	{"tag": "Saudações",
+	 "patterns": ["Olá", "Oi", "Bom dia"],
+	 "reponses": ["Olá, Como você vai?", "Bom dia, tudo bem?"]}	
+]}
