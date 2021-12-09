@@ -4,7 +4,6 @@ O arquivo JSON usado concede ao chatbot dados para que o mesmo tenha a capacidad
 
 A estrutura, que será chamada de intents se comportará como uma lista de dicionários, ou seja, categorias (tags), as quais serão reconhecidas pelos padrões (patterns), levando o chatbot a respostas estáticas (responses):
 
-**************************teste para ver se estou consguindo editar***********
 
 {"intents": [
 	{"tag": "Saudações",
