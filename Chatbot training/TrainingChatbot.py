@@ -7,7 +7,7 @@ import pickle
 import numpy as np
 
 import nltk
-from nltk.stem import WordNetLemmatizer
+from nltk.stem import WordNetLemmatizer #Essa função serve para reduzir a palavra a sua forma canonica.
 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation, Dropout
