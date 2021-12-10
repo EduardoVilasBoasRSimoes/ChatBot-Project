@@ -1,0 +1,7 @@
+Leitura do arquivo JSON:
+
+Sabendo-se que o arquivo "intents" criado funciona como um dicionário do python, tem-se:
+
+Incialmente, o objeto "intent" percorre o dicionário até encontrar a chave "intents", a quais possui sub-chaves. Assim, semelhantemente, para cada "intents", o  objeto "pattern" percorre até encontrar a chave "patterns". 
+
+Encontrando alguma dessas chaves, todas as strings contidas nela são tokenizadas, ou seja, divididas em palavras individuais, as quais são depositadas em uma lista de palavras e, posteriomente, essa lista é colocada no vetor de documentos juntamente com sua "tag"
