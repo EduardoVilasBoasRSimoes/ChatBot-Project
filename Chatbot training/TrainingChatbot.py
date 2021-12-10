@@ -15,7 +15,7 @@ from tensorflow.keras.optimizers import SGD
 
 lematizador = WordNetLemmatizer #Recebe a função para reduzir a palavra a sua forma canonica
 
-intents = json.loads(open('intents.JSON').read()) #Carregar o dicionario para a variavel intents
+intents = json.loads(open('intents.JSON').read()) #Carregar o dicionario para a variavel intents.
 
 palavras = []
 classes = []
