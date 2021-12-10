@@ -1,2 +1,3 @@
 # ChatBot Project
- Projeto desenvolvido pelo RAITec, cujo objetivo é criar um ChatBot baseado em redes neurais para desenvolver conversas em websites.
+ Projeto desenvolvido pelo RAITec, cujo objetivo é criar um ChatBot baseado em redes neurais para desenvolver conversas em websites!
+ 
