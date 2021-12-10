@@ -1,0 +1,29 @@
+Bibliotecas usadas para o treino do ChatBot:
+
+1 - random:
+
+2 - json:
+
+3 - pickle:
+
+4 - numpy:
+
+5 - nltk:
+
+6 - tensorflow:
+
+Funções usadas para o treino do ChatBot:
+
+1 - nltk.stem.WordNetLemmatizer:
+
+2 - nltk.word_tokenize:
+
+3 - tensorflow.keras.models.Sequential:
+
+4 - tensorflow.keras.layers.Dense:
+
+5 - tensorflow.keras.layers.Activation:
+
+6 - tensorflow.keras.layers.Dense.Dropout:
+
+7 - tensorflow.keras.optimizers.SGD:
